@@ -1,0 +1,158 @@
+.container {
+    background-image: url(../../images/bg-img.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 60px;
+
+}
+
+.logo-img{
+    width: 510px;
+    height: 153px;
+}
+
+.discord-img{
+    width: 280px;
+    position: fixed;
+    right: 30px;
+    
+    margin-left: 0px;
+    
+}
+
+.header-container {
+    background-color: rgba(0, 0, 0, 0.537);
+}
+
+.another-container {
+    background-color: rgba(0, 0, 0, 0.415);
+}
+
+@font-face {
+    font-family: 'broen';
+    src: url(/src/Font/BROEN.ttf);
+    font-style: normal;
+}
+
+.soloto {
+    font-family: broen !important;
+    color: yellow;
+    /* text-shadow:1px 1px 10px rgb(130, 235, 10), 1px 1px 10px rgba(204, 204, 204, 0); */
+    text-shadow: 3px 3px 25px rgba(255, 255, 0, 0.803);
+}
+
+.prize {
+    text-shadow: 3px 3px 50px rgb(156, 194, 103);
+}
+
+.second {
+    text-shadow: 3px 3px 25px rgba(136, 255, 0, 0.483) !important;
+}
+
+.des {
+    text-shadow: 2px 2px 2px black;
+}
+
+
+
+@media only screen and (max-width:688px){
+.header-container{
+    padding: 20px !important;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+    padding: 70px 0;
+}
+
+.logo-img{
+    width: 310px;
+    height: 113px;
+}
+
+.discord-img{
+    width: 280px !important;
+    position: sticky;
+    margin-left: 0px;
+    
+}
+
+.join-us{
+    font-size: 30px !important;
+}
+
+.what-soloto{
+    margin: 50px 0 !important;
+    font-size: 50px !important;
+}
+.des{
+    padding: 20px;
+}
+
+.another-container {
+    padding: 70px 30px !important;
+}
+
+.wallet{
+    font-size: 30px !important;
+}
+
+.how-to{
+    padding: 10px;
+    margin: 0 !important;
+    font-size: 20px !important;
+    text-align: center !important;
+}
+
+.cost-img{
+    width: 300px !important;
+    margin-left: 30px;
+}
+.cost{
+    margin-left: 75px !important;
+    margin-top: 30px !important;
+}
+
+.solona{
+    margin: 0 !important;
+}
+
+.unit{
+    font-size: 50px !important;
+    text-align: center !important;
+}
+.units{
+    text-align: center !important;
+}
+
+.mint-container{
+    margin-bottom: 90px !important;
+}
+
+.mint {
+    margin-left: 30px !important;
+}
+
+.rate-1 {
+    margin-left: 35px !important;
+    margin-top: 70px !important;
+}
+.rate-2 {
+    margin-right: 50px !important;
+}
+.rate-3 {
+    margin-right: 15px !important;
+}
+
+}
