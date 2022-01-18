@@ -28,7 +28,7 @@ const Home = () => {
 
                         <Typography className='join-us font-style' sx={{ color: 'white', textAlign: 'center', pt: 2, pl: { md: '115px' }, fontWeight: 600, fontSize: "70px" }} variant="h3">BIG WIN WITH US</Typography>
 
-                        <Typography sx={{ textAlign: 'center', mt: 4, typography: { xs: 'h4', sm: 'h4', md: 'h1' } }} variant="h1" className="soloto">SOLOTTO</Typography>
+                        <Typography sx={{ textAlign: 'center', mt: 4, typography: { xs: 'h4', sm: 'h4', md: 'h1' } }} variant="h1" className="soloto solotto-style">SOLOTTO</Typography>
                     </Box>
                 </Box>
 
@@ -40,15 +40,15 @@ const Home = () => {
 
                         <Typography className="des font-style" sx={{ color: 'white', textAlign: 'center', fontWeight: 600, mt: 3 }} variant="h5">
 
-                            This is a new NFT project on the Solana blockchain. It is a 1 in 5000 chance of winning US$1Million. <br />
+                            This is a new NFT project on the Solana blockchain. It is a 1 in 5000 chance of winning US$1Million. 
 
-                            Once the 5000 NFTs are sold out, we will broadcast the drawing live on YouTube. <br />
+                            Once the 5000 NFTs are sold out, we will broadcast the drawing live on YouTube.
 
-                            The last four digits of the NFT number are 0000~4999. <br />
+                            The last four digits of the NFT number are 0000~4999. 
 
-                            However, during the “Double Up” campaign, 200 additional NFTs are added for a total of 5200* NFTs. <br />
+                            However, during the “Double Up” campaign, 200 additional NFTs are added for a total of 5200* NFTs. 
 
-                            These 200 NFTs can be redeemed immediately <br />
+                            These 200 NFTs can be redeemed immediately 
 
                             *Only during the Double Up campaign</Typography>
                     </Box>
@@ -57,7 +57,7 @@ const Home = () => {
 
                 <Box sx={{ mb: 10, p: 10, borderRadius: '20px', }} className="another-container">
                     <Box>
-                        <Typography className="soloto" sx={{ color: 'yellow', mb: 5, textAlign: 'center' }} variant="h2">HOW TO BUY</Typography>
+                        <Typography className="soloto how-to-buy" sx={{ color: 'yellow', mb: 5, textAlign: 'center' }} variant="h2">HOW TO BUY</Typography>
                     </Box>
                     <Grid container spacing={3}>
                         <Grid md={4} item>
@@ -192,8 +192,8 @@ const Home = () => {
                 </Box>
 
 
-                <Box sx={{ display: 'flex', justifyContent: 'center', mt: { md: '100px' }, pb: '100px' }}>
-                    <Box className="another-container" sx={{ width: '100%', borderRadius: '20px', p: 5 }}>
+                <Box className='prizemoney-container' sx={{ display: 'flex', justifyContent: 'center', mt: { md: '100px' }, pb: '100px' }}>
+                    <Box className="another-container prizemoney" sx={{ width: '100%', borderRadius: '20px', p: 5 }}>
                         <Box sx={{ mb: 3 }}>
                             <Typography sx={{ textAlign: 'center', pb: { md: '30px' }, pt: { md: '30px' }, typography: { xs: 'h4', sm: 'h4', md: 'h2' } }} className="soloto prize units">PRIZEMONEY</Typography>
                         </Box>
@@ -228,7 +228,7 @@ const Home = () => {
                                 <Typography className="des rate-2 font-style" sx={{ color: 'white', fontWeight: 600, mt: 3 }} variant="h5">1SOL($141.13)</Typography>
                             </Grid>
                             <Grid md={4} item>
-                                <Typography className="des rate-3 font-style" sx={{ color: 'white', fontWeight: 600, mt: 3 }} variant="h5">※Mint = Purchase</Typography>
+                                <Typography className="des rate-3 font-style mint-design" sx={{ color: 'white', fontWeight: 600, mt: 3 }} variant="h5">※Mint = Purchase</Typography>
                             </Grid>
                         </Grid>
 

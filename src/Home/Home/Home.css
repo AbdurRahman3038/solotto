@@ -80,6 +80,7 @@
 }
 
 @media only screen and (max-width:688px){
+
 .header-container{
     padding: 20px !important;
 }
@@ -105,6 +106,14 @@
     
 }
 
+.solotto-style{
+    font-size: 50px !important;
+}
+
+.how-to-buy{
+    font-size: 39px !important;
+}
+
 .join-us{
     font-size: 30px !important;
 }
@@ -113,6 +122,7 @@
     margin: 50px 0 !important;
     font-size: 50px !important;
 }
+
 .des{
     padding: 20px;
 }
@@ -136,6 +146,20 @@
     width: 300px !important;
     margin-left: 30px;
 }
+
+.prize {
+    font-size: 43px !important;
+    margin-bottom: 90px !important;
+}
+
+.prizemoney{
+    padding-bottom: 0px !important;
+}
+
+.prizemoney-container{
+    padding-bottom: 50px !important;
+}
+
 .cost{
     margin-left: 75px !important;
     margin-top: 30px !important;
@@ -159,6 +183,10 @@
 
 .mint {
     margin-left: 30px !important;
+}
+
+.mint-design{
+    padding-bottom: 0 !important;
 }
 
 .rate-1 {
